@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts/react-testing-library",
-	"version": "12.1.5-rc.2",
+	"version": "12.1.5-rc.3",
 	"main": "out/init.luau",
 	"types": "out/types/index.d.ts",
 	"files": [
