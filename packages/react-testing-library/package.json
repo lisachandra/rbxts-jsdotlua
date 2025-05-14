@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts/react-testing-library",
-	"version": "12.1.5-rc.3",
+	"version": "12.1.5-rc.4",
 	"main": "out/init.luau",
 	"types": "out/types/index.d.ts",
 	"files": [
@@ -27,20 +27,19 @@
 		"url": "https://github.com/lisachandra/rbxts-jsdotlua/issues"
 	},
 	"homepage": "https://github.com/lisachandra/rbxts-jsdotlua/tree/main/packages/react-testing-library#readme",
-	"peerDependencies": {
-		"@rbxts/dom-testing-library": "*",
-		"@rbxts/jest-vendor": "*",
-		"@rbxts/luau-polyfill": "*",
-		"@rbxts/react": "*",
-		"@rbxts/react-roblox": "*"
+	"dependencies": {
+		"@rbxts-js/jest-globals": "^3.13.2-ts.3",
+		"@rbxts-js/luau-polyfill": "^1.2.3-ts.1",
+		"@rbxts-js/react": "^17.1.20-ts.1",
+		"@rbxts-js/react-roblox": "^17.1.20-ts.1",
+		"@rbxts-js/roblox-lua-promise": "^3.5.0-ts.2",
+		"@rbxts-js/scheduler": "^17.1.20-ts.1",
+		"@rbxts-js/shared": "^17.1.20-ts.1",
+		"@rbxts/dom-testing-library": "^8.14.0-rc.3"
 	},
 	"devDependencies": {
 		"@rbxts/compiler-types": "^3.0.0-types.0",
-		"@rbxts/dom-testing-library": "workspace:*",
-		"@rbxts/jest-vendor": "*",
-		"@rbxts/luau-polyfill": "^1.0.0",
-		"@rbxts/react": "^17.2.3",
-		"@rbxts/react-roblox": "^17.2.3",
+		"@rbxts/react": "^17.3.0-alpha.1",
 		"@rbxts/types": "^1.0.844",
 		"ajv": "^8.12.0",
 		"pkg-up": "^3.1.0",
