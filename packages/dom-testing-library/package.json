@@ -29,15 +29,15 @@
 	},
 	"homepage": "https://github.com/lisachandra/rbxts-jsdotlua/tree/main/packages/dom-testing-library#readme",
 	"peerDependencies": {
-		"@rbxts/jest-vendor": "*",
+		"@rbxts/jest": "*",
 		"@rbxts/luau-polyfill": "*",
-		"@rbxts/react-vendor": "*"
+		"@rbxts/react": "*"
 	},
 	"devDependencies": {
 		"@rbxts/compiler-types": "^3.0.0-types.0",
-		"@rbxts/jest-vendor": "*",
+		"@rbxts/jest": "*",
 		"@rbxts/luau-polyfill": "^1.0.0",
-		"@rbxts/react-vendor": "*",
+		"@rbxts/react": "*",
 		"@rbxts/types": "^1.0.844",
 		"ajv": "^8.12.0",
 		"pkg-up": "^3.1.0",

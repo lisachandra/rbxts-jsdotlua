@@ -29,7 +29,7 @@
 	"homepage": "https://github.com/lisachandra/rbxts-jsdotlua/tree/main/packages/react-testing-library#readme",
 	"peerDependencies": {
 		"@rbxts/dom-testing-library": "*",
-		"@rbxts/jest-vendor": "*",
+		"@rbxts/jest": "*",
 		"@rbxts/luau-polyfill": "*",
 		"@rbxts/react": "*",
 		"@rbxts/react-roblox": "*"
@@ -37,10 +37,10 @@
 	"devDependencies": {
 		"@rbxts/compiler-types": "^3.0.0-types.0",
 		"@rbxts/dom-testing-library": "workspace:*",
-		"@rbxts/jest-vendor": "*",
+		"@rbxts/jest": "*",
 		"@rbxts/luau-polyfill": "^1.0.0",
-		"@rbxts/react": "^17.2.3",
-		"@rbxts/react-roblox": "^17.2.3",
+		"@rbxts/react": "*",
+		"@rbxts/react-roblox": "*",
 		"@rbxts/types": "^1.0.844",
 		"ajv": "^8.12.0",
 		"pkg-up": "^3.1.0",
