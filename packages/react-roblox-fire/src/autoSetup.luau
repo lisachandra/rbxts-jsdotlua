@@ -1,7 +1,7 @@
 local setup = require(script.Parent.setup)
 
 local function autoSetup()
-	setup(script.Parent.Parent:WaitForChild("ReactLua")["node_modules"]["@jsdotlua"]["react-roblox"])
+	setup(script.Parent.Parent:WaitForChild("react-roblox"))
 	--[[
 	local packages = script:FindFirstAncestor("Packages") or script:FindFirstAncestor("DevPackages")
 	if packages == nil then
