@@ -1,7 +1,7 @@
 local setup = require(script.Parent.setup)
 
 local function autoSetup()
-	setup(script.Parent.Parent:WaitForChild("react-roblox"))
+	setup(script.Parent.Parent.Parent:WaitForChild("@rbxts-js")["ReactRoblox"])
 	--[[
 	local packages = script:FindFirstAncestor("Packages") or script:FindFirstAncestor("DevPackages")
 	if packages == nil then

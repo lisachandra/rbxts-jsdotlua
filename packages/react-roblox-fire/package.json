@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts/react-roblox-fire",
-	"version": "0.1.2",
+	"version": "0.1.4",
 	"main": "out/init.luau",
 	"types": "out/index.d.ts",
 	"files": [
