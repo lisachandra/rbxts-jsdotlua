@@ -1,4 +1,5 @@
 import * as React from "@rbxts/react";
+import { JSX } from "@rbxts/react";
 import { render, fireEvent, waitFor, renderHook } from "../types";
 import * as pure from "../types/pure";
 
