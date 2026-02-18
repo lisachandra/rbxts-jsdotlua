@@ -11,6 +11,9 @@
 					"$className": "Folder",
 					"@rbxts": {
 						"$path": "test\\node_modules\\@rbxts"
+					},
+					"@rbxts-js": {
+						"$path": "test\\node_modules\\@rbxts-js"
 					}
 				},
 				"include": {
