@@ -30,8 +30,8 @@
 	"homepage": "https://github.com/lisachandra/rbxts-jsdotlua/tree/main/packages/dom-testing-library#readme",
 	"peerDependencies": {
 		"@rbxts/jest": "^3.13.3-ts.1",
-		"@rbxts/react": "^17.3.7-ts.1",
-		"@rbxts/luau-polyfill": "*"
+		"@rbxts/luau-polyfill": "*",
+		"@rbxts/react": "^17.3.7-ts.1"
 	},
 	"devDependencies": {
 		"@rbxts/compiler-types": "^3.0.0-types.0",
