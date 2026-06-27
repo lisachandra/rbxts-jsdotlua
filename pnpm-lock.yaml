@@ -65,6 +65,9 @@ importers:
 
   packages/dom-testing-library:
     devDependencies:
+      '@rbxts-js/dom-testing-library-lua':
+        specifier: ^8.16.0-ts.2
+        version: 8.16.0-ts.2
       '@rbxts/compiler-types':
         specifier: ^3.0.0-types.0
         version: 3.0.0-types.0
@@ -377,6 +380,9 @@ packages:
 
   '@rbxts-js/diff-sequences@3.13.3-ts.3':
     resolution: {integrity: sha512-rYbBZrtoymMKZcP9qawJ86a1o/VJOvQTLir40Hzjk+l7jsgiLr+bNnn3ryIGqWR61FTLlZFHMcf+DSHU4mQA0Q==}
+
+  '@rbxts-js/dom-testing-library-lua@8.16.0-ts.2':
+    resolution: {integrity: sha512-VS24bvq2HnvliGMD9XEfPx8ba/a1FZux4XwY9mbpzoFYl/UWNQJlFwq0OO/ewrjWAs3QPwY0WuoZuURG9FSxJw==}
 
   '@rbxts-js/emittery@3.13.3-ts.3':
     resolution: {integrity: sha512-WDHiwHC3T2x/qPDq/O4Ml8d2ZZnSjABzye+Vc3ksVdiqC/BxOg7GghEI8PV0R9zoC1XagrQPX8DF1PMeD8AMOQ==}
@@ -3368,6 +3374,17 @@ snapshots:
   '@rbxts-js/diff-sequences@3.13.3-ts.3':
     dependencies:
       '@rbxts-js/luau-polyfill': 1.2.3-ts.1
+
+  '@rbxts-js/dom-testing-library-lua@8.16.0-ts.2':
+    dependencies:
+      '@rbxts-js/chalk-lua': 0.2.2-ts.2
+      '@rbxts-js/jest-get-type': 3.13.3-ts.3
+      '@rbxts-js/jest-globals': 3.13.3-ts.3
+      '@rbxts-js/luau-polyfill': 1.2.3-ts.1
+      '@rbxts-js/luau-regexp': 0.2.2-ts.1
+      '@rbxts-js/pretty-format': 3.13.3-ts.3
+      '@rbxts-js/roblox-lua-promise': 3.5.0-ts.2
+      '@rbxts-js/roblox-shared': 3.13.3-ts.3
 
   '@rbxts-js/emittery@3.13.3-ts.3':
     dependencies:
