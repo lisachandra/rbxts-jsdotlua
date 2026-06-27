@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts/dom-testing-library",
-	"version": "8.16.0-ts.1",
+	"version": "8.16.0-ts.2",
 	"main": "out/init.luau",
 	"types": "out/types/index.d.ts",
 	"files": [
